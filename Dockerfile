@@ -2,9 +2,10 @@ FROM scratch
 MAINTAINER \
 [Ergün Salman <admin@limelinux.com>] \
 
-ADD chroot.tar.xz /
+ADD lime_2016-12-25.tar.xz /
 
-RUN pisi rr depo && service dbus start
+RUN chmod o+x /usr/lib/dbus-1.0/dbus-daemon-launch-helper
+RUN rc-status && service dbus start
 
 
 
