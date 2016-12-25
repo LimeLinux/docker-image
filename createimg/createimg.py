@@ -1,6 +1,6 @@
 #!/usr/bin/python
 # -*- coding: utf-8 -*-
-#
+# Modified from https://github.com/Pardus-Linux/pisi/blob/master/scripts/pisi-sandbox
 # 
 #
 # This program is free software; you can redistribute it and/or modify it
