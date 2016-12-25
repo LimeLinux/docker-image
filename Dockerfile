@@ -9,4 +9,4 @@ RUN rc-status && rc-service dbus start
 
 
 
-CMD ["/usr/bin/bash"]
+CMD ["/bin/bash"]
